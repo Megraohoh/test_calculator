@@ -1,19 +1,12 @@
 class Calculator():
-    """Performs the four basic mathematical operations
+  def add(self, firstOperand, secondOperand):
+    return firstOperand + secondOperand
 
-    Methods:
-     add(number, number)
-     subtract(number, number)
-     multiply(number, number)
-     divide(number,number)
-    """
+  def subtract(self, firstOperand, secondOperand):
+    return firstOperand - secondOperand
 
-    def add(self, firstOperand, secondOperand):
-        """Adds two numbers together
+  def multiply(self, firstOperand, secondOperand):
+    return firstOperand * secondOperand
 
-        Arguments:
-          firstOperand - Any number
-          secondOperand - An number
-        """
-
-        return firstOperand + secondOperand
+  def divide(self, firstOperand, secondOperand):
+    return firstOperand / secondOperand   
